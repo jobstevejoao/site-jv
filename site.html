@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python para Iniciantes - João Vitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Python para Iniciantes</h1>
+      <p class="autor">por João Vitor</p>
+      <nav>
+        <ul class="menu">
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#instalacao">Instalação</a></li>
+          <li><a href="#conceitos">Conceitos Básicos</a></li>
+          <li><a href="#comandos">Comandos Úteis</a></li>
+          <li><a href="#dicas">Dicas de Aprendizado</a></li>
+          <li><a href="#recursos">Recursos e Tutoriais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="introducao">
+      <h2>O que é Python?</h2>
+      <p>Python é uma linguagem de programação interpretada, de alto nível, com sintaxe simples e poderosa. Ideal para iniciantes, Python é amplamente usada em áreas como:</p>
+      <ul>
+        <li>Desenvolvimento Web</li>
+        <li>Ciência de Dados</li>
+        <li>Automação</li>
+        <li>Inteligência Artificial</li>
+        <li>Desenvolvimento de Jogos</li>
+      </ul>
+    </section>
+
+    <section id="instalacao">
+      <h2>Como Instalar o Python</h2>
+      <ol>
+        <li>Acesse <a href="https://www.python.org/downloads/" target="_blank">python.org</a></li>
+        <li>Baixe a versão mais recente para seu sistema</li>
+        <li>Durante a instalação, marque a opção <code>Add Python to PATH</code></li>
+        <li>Verifique no terminal com: <code>python --version</code></li>
+      </ol>
+    </section>
+
+    <section id="conceitos">
+      <h2>Conceitos Básicos de Python</h2>
+      <div class="code-section">
+        <h3>1. Variáveis</h3>
+        <pre><code>nome = "João"
+idade = 25
+print(nome, idade)</code></pre>
+      </div>
+      <div class="code-section">
+        <h3>2. Condicionais</h3>
+        <pre><code>if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")</code></pre>
+      </div>
+      <div class="code-section">
+        <h3>3. Laços de Repetição</h3>
+        <pre><code>for i in range(5):
+    print("Repetição", i)</code></pre>
+      </div>
+      <div class="code-section">
+        <h3>4. Funções</h3>
+        <pre><code>def saudacao(nome):
+    print(f"Olá, {nome}!")</code></pre>
+      </div>
+    </section>
+
+    <section id="comandos">
+      <h2>Comandos Úteis para Iniciantes</h2>
+      <ul>
+        <li><code>print()</code> – Exibe mensagens</li>
+        <li><code>input()</code> – Captura entrada do usuário</li>
+        <li><code>len()</code> – Retorna o tamanho de listas ou strings</li>
+        <li><code>type()</code> – Retorna o tipo da variável</li>
+        <li><code>int(), str(), float()</code> – Conversão de tipos</li>
+        <li><code>import</code> – Importa bibliotecas</li>
+        <li><code>help()</code> – Ajuda interativa no terminal Python</li>
+      </ul>
+      <pre><code>nome = input("Digite seu nome: ")
+print("Bem-vindo,", nome)</code></pre>
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas para Quem Está Começando</h2>
+      <ul>
+        <li>Pratique sempre: escreva código todos os dias</li>
+        <li>Evite copiar e colar – digite para aprender</li>
+        <li>Faça mini-projetos: calculadora, jogo da adivinhação, lista de tarefas</li>
+        <li>Use editores como VS Code com a extensão Python</li>
+        <li>Participe de comunidades como <a href="https://discord.gg/python" target="_blank">Discord Python Brasil</a></li>
+      </ul>
+    </section>
+
+    <section id="recursos">
+      <h2>Recursos e Tutoriais Gratuitos</h2>
+
+      <h3>🎥 Vídeo Aulas no YouTube</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=S9uPNppGsGo" target="_blank">Curso Python para Iniciantes - Curso em Vídeo</a></li>
+        <li><a href="https://www.youtube.com/watch?v=YXPyB4XeYLA" target="_blank">Curso de Python 3 - Hashtag Programação</a></li>
+      </ul>
+
+      <h3>📘 Tutoriais e Sites</h3>
+      <ul>
+        <li><a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python</a></li>
+        <li><a href="https://www.freecodecamp.org/portuguese/learn/scientific-computing-with-python/" target="_blank">freeCodeCamp em Português</a></li>
+        <li><a href="https://docs.python.org/pt-br/3/" target="_blank">Documentação Oficial Python</a></li>
+        <li><a href="https://realpython.com/" target="_blank">Real Python (avançado, em inglês)</a></li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Fale com João Vitor</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - João Vitor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
